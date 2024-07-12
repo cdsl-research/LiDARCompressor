@@ -1,13 +1,16 @@
 # LiDARCompressor
-LiDARデータを圧縮
+LiDARデータを圧縮します．
+
 ## matrix.py
 このファイルではRPLidar C1から出力されたデータを用います．
 使用すると，
 ・デカルト座標化された値が記録されているファイル
 ・バイナリ行列が記録されたファイル
 が出力されます．
+
 ## sendtest60.txt
 このファイルは60秒間LiDARを起動して取得したデータです
+
 ## slamtec SDK
 
 https://github.com/Slamtec/rplidar_sdk
