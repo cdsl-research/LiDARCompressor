@@ -3,7 +3,8 @@ LiDARデータを圧縮します．
 
 ## lidar_text.py
 このファイルではRPLidar C1から出力されたデータを用います．
-**input_file_path**にLiDARデータのパスを入れてください．このデータをprocess_lidar_data()で読み取りdistが取得できていないものやqualityが0の値を排除します
+**input_file_path**にLiDARデータのパスを入れてください．
+このデータをprocess_lidar_data()で読み取りdistが取得できていないものやqualityが0の値を排除します．
 次に，角度の差分と距離の差分を出力し，write_processed_data()にある**output_file_path**で指定したディレクトリに結果を出力します．
 最後に，処理にかかった時間やバイトサイズを表示します．
 
